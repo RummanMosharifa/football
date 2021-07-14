@@ -1,0 +1,154 @@
+/* font  */
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* .icon{
+    color: blue;
+}
+.container{
+    background-color: #FFFF;
+    width: 870px;
+    padding: 30px;
+    margin-top: 21px;
+} */
+.frontPage {
+    background-color: #2C24A0;
+    height: 100vh;
+}
+#navbar ul{
+    list-style: none; 
+}
+#navbar li{
+    float: left;
+}
+#navbar li a{
+    color: #363958;
+    text-decoration: none;
+    padding-left: 20px;
+    text-align: right;
+    font-size: 14px;
+    font-weight:400;
+    color: white;
+}
+/* section{
+    display: flex;
+} */
+
+.halfWidth{
+
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 150px;
+    /* height: 100%;
+    width: 100%; */
+    /* float: right; */
+    /* margin-left: 5%;
+    padding-left: 2%; */
+}
+.halfWidth h1{
+    margin-bottom: 40px;
+}
+.headerImg{
+    width: 50%;
+    /* transition: ; */
+    /* margin-left: 50px;
+    margin-top: 20px; */
+}
+.watchlive{
+    color: white;
+    background-color: #eb406b;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.text-color{
+    color: white;
+}
+.third-area{
+    display: flex;
+    margin-bottom: 50px;
+    width: 90%;
+    float: left;
+    margin-left: 6%;
+    margin-top: 50px;
+}
+.player-card img{
+    display: flex;
+    width: 100%;
+}
+.players-details{
+    box-shadow: 10px 10px 50px hsla(0, 0%, 18%, 0.5);
+    border-radius: 20px;
+    padding: 0px 0px 50px 0px;
+}
+.players-section{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.player-card{
+    width: 50%;
+    padding: 10px;
+
+}
+.player-card img{
+    width: 100%;
+}
+/* section{
+    display: flex;
+} */
+
+.highlight-container {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.halfWidth{
+    width: 50%;
+}
+.halfWidth img{
+    width: 100%;
+}
+.highlight-text-color{
+    font-size: large;
+}
+.highlight p{
+    margin-bottom: 40px;
+}
+.footer-background{
+    /* background-color: rgb(75, 71, 126); */
+    /* background-repeat: no-repeat; */
+    background-size: 500px 5000px;
+}
+.footer-class {
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    width: 50%;
+    
+}
+.footer img{
+    background-repeat: no-repeat;
+    height: 50%;
+    display: block;
+    margin-left:80%;
+    margin-right: 100%;
+       
+}
+.copyright{
+    text-align: center;
+    color: rgb(12, 2, 2);
+}
