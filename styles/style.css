@@ -1,3 +1,4 @@
+  
 /* font  */
 
 
@@ -77,14 +78,25 @@ main{
 }
 
 
+/* Banner animation  */
+
+.banner:hover .banner-container-right img {
+    height: 350px;
+    width: auto;
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+    filter: drop-shadow(-5px 1px 10px white);
+}
+
+
 
 /* player section  */
 
 .players-section{
     display: grid;
     justify-content: center;
-    margin-left: 13%;
-    margin-right: 17%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 70px;
     margin-bottom: 165px;
     grid-template-columns: repeat(3, 360px);
@@ -116,6 +128,83 @@ main{
     font-weight: 400px;
 }
 
+/* pibe section- */
+.pibe {
+    background-color: #5c5a6b;
+    width: 100%;
+    height: 677px;
+    
+}
+
+.pibe-container {
+    display: flex; 
+
+     margin-top:135px ;  
+     margin-left: 10%;
+     margin-right: auto;
+
+
+}
+
+.pibe-container-left {
+    
+    width: 485px;
+    height: 230px;
+    margin-right: 101px;
+    color: white;
+}
+
+.pibe-container-left h1 {
+    font-size: 64px;
+    margin-top: 70px;
+    margin-bottom: 27px;
+    
+}
+.pibe-container-left p{
+    margin-bottom: 30px;
+    
+}
+
+.pibe-button {
+    background-color: #E02C6D;
+    width: 168px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  
+}
+
+.pibe-container-left a {
+    text-decoration: none;
+    color:white;
+    margin-right: 8px;
+
+    
+}
+
+.pibe-container-right {
+    margin-right: 141px;
+
+    margin-left: auto;
+}
+
+.pibe-container-right img {
+    width: 560px;
+    height: 438px;
+}
+
+.pibe:hover .pibe-container-right img {
+    height: 350px;
+    width: 450px;
+
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+    filter: drop-shadow(-5px 1px 50px white);
+}
+
+
 
 /* footer  */ 
 
@@ -127,25 +216,38 @@ main{
 .footer-class {
     text-align: center;
     margin-bottom: 100px;
+    margin-top: 70px;
 }
 
 
 .footer-img img{
-    width: 483.87px;
-    height: 110px;
-    margin-bottom: 20px;
+    /* width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    /* position: relative;
+    left: 50%;
+    bottom: -20px;
+    width: 40px;
+    height: 40px;
+    margin-left: -20px;
+     */ 
+
+     width: 483.87px;
+     height: 110px;
+     margin-bottom: 20px;
        
 }
 
 footer a {
     text-decoration: none;
 }
-.icon-container {
+/* .icon-container {
       margin-bottom: 24px;
-}
+} */
 
 
-.icons {
+.icon {
     width: 32px;
     height: 32px;
     color: gray;
@@ -158,7 +260,7 @@ footer a {
 }
 
 .copyright{
-
+    margin-top: 20px;;
     font-size: 18px;
     font-weight: 400px;
     color: #000000;
